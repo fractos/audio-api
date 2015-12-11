@@ -1,0 +1,1 @@
+http://www.example.org/audio-service/abcd1234/1E34750D/,00:01:00.000/full/192kbps/audio.mp3

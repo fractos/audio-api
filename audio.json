@@ -1,0 +1,17 @@
+{
+  "@context" : "http://iiif.io/api/audio/0/context.json",
+  "@id" : "http://www.example.org/audio-service/abcd1234/1E34750D",
+  "protocol" : "http://iiif.io/api/audio",
+  "duration" : "00:04:22.000",
+  "profile" : [
+    "http://iiif.io/api/audio/0/level1.json",
+    {
+      "formats" : {
+        "mp3" : [ "192kbps", "320kbps" ],
+        "wav" : [ "44.1khz-16bit" ],
+        "ogg" : [ "128kbps" ]
+      },
+      "supports" : [ "warp" ]
+    }
+  ]
+}
