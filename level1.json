@@ -1,28 +1,19 @@
 {
   @context: "http://iiif.io/api/audio/0/context.json",
   @id: "http://iiif.io/api/audio/0/level1.json",
-  @type: "iiif:ImageProfile",
+  @type: "iiif:AudioProfile",
   formats: [
     "mp3",
     "wav",
     "ogg"
   ],
   qualities: [
-    "default",
-    "bitonal"
+    "128kbps",
+    "192kbps",
+    "320kbps",
+    "44.1khz-16bit"
   ],
   supports: [
-    "baseUriRedirect",
-    "cors",
-    "jsonldMediaType",
-    "profileLinkHeader",
-    "regionByPx",
-    "sizeByH",
-    "sizeByPct",
-    "sizeByW",
-    "regionByPct",
-    "rotationBy90s",
-    "sizeByForcedWh",
-    "sizeByWh"
+    "warp"
   ]
 }
